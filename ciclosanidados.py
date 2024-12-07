@@ -49,3 +49,54 @@
 #          contador_pares += 1
 
 # print (f"Hay {contador_pares} numero pares en la matriz")
+
+# Generación de patrones visuales con ciclos.
+
+# Triangulo de números.
+
+# n = int(input("Indicame el numero de pisos que tendra el triangulo: "))
+
+
+# for numeros in range (1, n + 1):
+#     for j in range (1, numeros + 1):
+#         print (j, end=" ")
+#     print ()
+# Piramide invertida con piramide de espacios interna.
+# m = 10 
+
+# for i in range (m):
+#     for j in range (1, m - i + 1):
+#         print (j, end=" ")
+#     print ("  " * (2 * i), end = " ")
+#     for j in range (m - i, 0, -1):
+#         print (j, end = " ")
+#     print ()
+
+
+# Tablero de ajedrez.
+    
+# n = 8
+
+# for i in range (n):
+#     for j in range (n):
+#         if (i + j) % 2 == 0:
+#             print ("  ", end="")
+#         else:
+#             print ("X", end="")
+#     print ()
+
+# Hacer transposicion de matrices, teniendo en cuenta la matriz previamente definida.
+# matriz = [
+#      [1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]
+#  ]
+
+# transpuesta =[[0]*3 for i in range (3)]
+
+# for i in range (3):
+#     for j in range (3):
+#         transpuesta [j] [i] = matriz [i] [j]
+
+# for fila in transpuesta:
+#     print (fila)
